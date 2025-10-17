@@ -152,7 +152,7 @@ function loadQuestion() {
             choicesList.appendChild(li);
         });
 
-        timeRemaining = 7;
+        timeRemaining = 5;
         document.getElementById("timer").textContent = timeRemaining;
         startTimer();
 
